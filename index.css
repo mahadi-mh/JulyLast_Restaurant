@@ -6,10 +6,9 @@
         text-align: center;
     }
     
-    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
     .title {
-        font-family: 'Lobster', cursive;
-        font-style: italic;
+        font-family: 'Palette Mosaic', cursive;
         font-weight: bold;
         font-size: 48px;
         line-height: 60px;
@@ -46,7 +45,7 @@
         border-radius: 39px;
     }
     
-    .footer-image-content{
+    .footer-image-content {
         background-image: url('images/footer_burger.jpg');
         height: 375px;
         width: 100%;
@@ -82,8 +81,16 @@
     }
     
     .middle-footer-content {
-        padding: 150px 0 30px 150px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
         color: white;
+    }
+    
+    .service-content {
+        display: grid;
+        justify-content: center;
+        align-content: center;
     }
     
     .form-control {
@@ -99,34 +106,9 @@
         Height: 40px;
     }
     
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sedgwick+Ave+Display&display=swap');
-    .row-md-6 h1 {
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Sedgwick Ave Display', cursive;
-        color: white;
-    }
-    
-    .row-md-6 p {
-        color: white;
-    }
-    
-    .col-md-4 h3 {
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Sedgwick Ave Display', cursive;
-    }
-    
     .customer-serve {
-        padding: 150px 0 0px 250px;
+        /* padding: 150px 0 0px 250px; */
         color: white;
-    }
-    
-    .input-box-modi {
-        height: 53px;
-        width: 922px;
-        margin-top: 20px;
-        color: grey;
-        border: none;
-        background: rgba(0, 0, 0, 0.04);
     }
     
     .input-box-modi-2 {
@@ -135,4 +117,19 @@
         color: grey;
         border: none;
         background: rgba(0, 0, 0, 0.04);
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+    .middle-footer-content h3 {
+        font-family: 'Style Script', cursive;
+    }
+    
+    .customer-underline {
+        width: 70px;
+        height: 2px;
+        background: #E1651F;
+    }
+    
+    .subscribe-part {
+        padding-right: 50px;
     }
