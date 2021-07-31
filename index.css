@@ -22,8 +22,7 @@
         color: grey;
         background: rgba(0, 0, 0, 0.04);
         border: 0px;
-        width: 932px;
-        height: 250px
+        width: 725px;
     }
     
     .custom-btn-color {
@@ -47,12 +46,12 @@
         border-radius: 39px;
     }
     
-    .footer-image-content {
-        /* background-image: url('images/footer_burger.jpg'); */
-        background-color: rgb(19, 122, 88);
+    .footer-image-content{
+        background-image: url('images/footer_burger.jpg');
         height: 375px;
-        width: auto;
+        width: 100%;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .middle-footer {
