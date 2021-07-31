@@ -81,16 +81,20 @@
     }
     
     .middle-footer-content {
+        font-family: Oleo Script Swash Caps;
         display: grid;
         justify-content: center;
         align-content: center;
         color: white;
+        font-weight: bold;
     }
     
     .service-content {
+        font-family: Oleo Script Swash Caps;
         display: grid;
         justify-content: center;
         align-content: center;
+        font-weight: bold;
     }
     
     .form-control {
