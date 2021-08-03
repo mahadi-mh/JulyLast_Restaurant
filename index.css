@@ -159,3 +159,100 @@
         color: white;
         margin-right: 5px;
     }
+
+
+
+
+
+
+
+/*-------Listen To Our Customers---------*/
+
+.listen{
+    width: 100%;
+    
+    padding: 100px 0;
+    position: relative;
+    display: block;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(images/listenBackground1.jpg);
+}
+
+.listen h1{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+.listen p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 50px;
+}
+
+
+.listen-col{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.image-size img{
+    width: 100%;
+}
+
+.image-size{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.listen-col p{
+    color: #000000;
+}
+
+.listen-col h3{
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+
+.image-separate{
+    width: 20%;
+    background: #fff;
+    padding: 50px 40px;
+    border-radius: 10px;
+    transition: 0.7s all;
+}
+
+.image-separate:hover{
+    background: #4c72b8;
+    color: #fff !important;
+    transform: rotate(360deg);
+}
+
+.ratings{
+    margin-bottom: 20px;
+}
+
+.ratings i{
+    font-size: 20px;
+    color: gold;
+}
+
+@media(max-width: 768px){
+    .image-separate{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
